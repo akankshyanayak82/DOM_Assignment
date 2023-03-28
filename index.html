@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom Assignments</title>
+    <link href="stylesheet.css" rel="stylesheet" />
+  </head>
+  <body onload="para_hide()">
+    <!--^^^^^^^^^^^^^ TASK 1^^^^^^^^^^^^^ -->
+    <section>
+      <h4>Click here for live alert</h4>
+      <div id="alert">
+        <p>Thanks for clicking live alert Button</p>
+        <button id="closingButton" onclick="abc()">OK</button>
+      </div>
+
+      <button id="liveAlertBtn" onclick="liveAlert()">Live Alert</button>
+      <p class="ash">*********TASK 1 END**********</p>
+    </section>
+
+    <!--^^^^^^^^^^^^^ TASK 2^^^^^^^^^^^^^ -->
+
+    <section id="accordian">
+      <div class="accordiandiv">
+        <h2 onclick="show_para(this)">01. Section 1</h2>
+
+        <p class="accordianpara">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quidem
+          corporis porro odit obcaecati eos ab alias cupiditate ratione
+          laboriosam!
+        </p>
+      </div>
+      <div class="accordiandiv">
+        <h2 onclick="show_para(this)">02. Section 2</h2>
+        <p class="accordianpara">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quidem
+          corporis porro odit obcaecati eos ab alias cupiditate ratione
+          laboriosam!
+        </p>
+      </div>
+
+      <div class="accordiandiv">
+        <h2 onclick="show_para(this)">03. Section 3</h2>
+        <p class="accordianpara">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quidem
+          corporis porro odit obcaecati eos ab alias cupiditate ratione
+          laboriosam!
+        </p>
+      </div>
+      <p class="ash">*********TASK 2 END**********</p>
+    </section>
+    <!--^^^^^^^^^^^^^ TASK 3^^^^^^^^^^^^^ -->
+
+    <section>
+      <h4>Please enter Month Name</h4>
+      <input
+        onchange="fun3()"
+        type="text"
+        id="text"
+        class="textBox"
+        placeholder="Type Month Name"
+      />
+      <p id="Monthdiv"></p>
+      <p class="ash">*********TASK 3 END**********</p>
+    </section>
+    <!--^^^^^^^^^^^^^ TASK 4^^^^^^^^^^^^^ -->
+    <section>
+      <h4>Write sides to check the sides of triangle</h4>
+      <input
+        class="textBox"
+        id="text1"
+        type="text"
+        placeholder="Side A Length "
+        onchange="fun4()"
+      />
+      <input
+        class="textBox"
+        type="text"
+        id="text2"
+        placeholder="Side B Length "
+        onchange="fun4()"
+      />
+      <input
+        class="textbox"
+        type="text"
+        id="text3"
+        placeholder="Side c Length "
+        onchange="fun4()"
+      />
+      <p id="blank2"></p>
+      <p class="ash">*********TASK 4 END**********</p>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>

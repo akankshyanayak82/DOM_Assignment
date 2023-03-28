@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 20px;
+}
+
+section {
+  margin: 20px;
+}
+
+/******************************/
+/************TASK 1************/
+/******************************/
+h4 {
+  margin-bottom: 10px;
+}
+.ash {
+  margin-top: 15px;
+}
+#alert {
+  display: none;
+  height: 8rem;
+  width: 18rem;
+  position: absolute;
+  border: 3.5px solid #84f661;
+  border-radius: 5px;
+  background-color: #5f9247;
+  left: 35rem;
+  top: 10px;
+}
+#liveAlertBtn {
+  border: 5px solid #f3994a;
+  padding: 3px 10px;
+}
+#closingButton {
+  position: absolute;
+  border: 4px solid rgba(57, 2, 2, 0.913);
+  border-radius: 5px;
+  right: 2px;
+  bottom: 2px;
+  padding: 4px 10px;
+}
+#alert p {
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* display: flex;
+justify-content: center;
+align-items: center; */
+
+/******************************/
+/************TASK 2************/
+/******************************/
+.accordiandiv {
+  margin-bottom: 10px;
+}
+
+h2,
+.accordianpara {
+  width: 500px;
+  background-color: #d769f3;
+  border: 4px solid #69056e;
+}
+.accordianpara {
+  border-top: none;
+}
+
+/* ********************TASK 3********************* */
+
+input {
+  padding: 10px;
+  outline: 4px solid #08b4df;
+  border: none;
+  font-size: medium;
+  color: #103cce;
+}
